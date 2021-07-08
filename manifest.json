@@ -1,0 +1,14 @@
+{
+  "name": "Google Maps",
+  "description": "Not oficial Google Maps extension. You can see maps by clicking this extension.",
+  "version": "1.1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "extension.html",
+    "default_icon": "icon.png"
+  }
+}
